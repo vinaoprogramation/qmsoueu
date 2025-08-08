@@ -226,10 +226,6 @@ main .caixa {
   transform: scale(1.05);
 }
 
-main div .item:hover .expandir-logo {
-  opacity: 2;
-  width: 75%;
-}
 
 .expandir-logo {
   position: relative;
@@ -238,4 +234,9 @@ main div .item:hover .expandir-logo {
   transition: width 0.3s;
   width: 70%;
   margin-top: 5%;
+}
+
+main div .item:hover .expandir-logo {
+  opacity: 2;
+  width: 75%;
 }
