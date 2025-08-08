@@ -5,7 +5,7 @@
 }
 
 header {
-  background-image: linear-gradient(to bottom, transparent 90%, rgb(255, 241, 181) 99%), url(imagens/fundo-arvore.jpg);
+background-color: beige;
   background-size: 100vw;
   background-repeat: no-repeat;
   background-position: center;
