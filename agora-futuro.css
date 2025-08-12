@@ -86,7 +86,7 @@ main{
   width: 100%;
   height: 100%;
   margin-top: 5%;
-  border: 0.1% solid white;
+  border-bottom: 0.1% solid white;
 }
 
 .agora{
@@ -94,9 +94,11 @@ main{
   width: 100%;
   height: 50%;
   margin-bottom: 2%;
+  background-color: grey;
 }
 .futuro{
   display: flex;
   width: 100%;
   height: 50%;
+  background-color: black;
 }
