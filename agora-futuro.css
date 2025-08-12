@@ -97,7 +97,7 @@ main{
   background-color:  rgb(179, 179, 160);
   border: 3px solid white;
   box-sizing: border-box;
-  transition: background-color 1s;
+  transition: background-color 0.5s;
 }
 
 .agora:hover{
@@ -112,7 +112,7 @@ main{
   background-color: rgb(136, 136, 122);
   border: 3px solid white;
   box-sizing: border-box;
-  transition: background-color 1s;
+  transition: background-color 0.5s;
 
 }
 
