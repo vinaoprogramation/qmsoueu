@@ -27,6 +27,7 @@ header h1 {
   position: relative;
   font-size: 4vw;
   font-family: "Josefin Sans", sans-serif;
+  border-bottom: 1px solid white;
 }
 
 nav {
@@ -79,7 +80,6 @@ main{
   height: 100%;
   display: flex;
   flex-wrap: wrap;
-  border-bottom: 1px solid white;
 }
 
 
