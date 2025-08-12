@@ -60,6 +60,10 @@ nav ul li a:hover {
   background-color: rgb(212, 199, 141);
 }
 
+.main{
+  background-image: linear-gradient(rgb(255, 239, 167) white);
+}
+
 .jb{
   position: absolute;
   width: 10%;
