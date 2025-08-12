@@ -97,7 +97,13 @@ main{
   background-color:  rgb(179, 179, 160);
   border: 3px solid white;
   box-sizing: border-box;
+  transition: background-color 1s;
 }
+
+.agora:hover{
+  background-color: rgb(65, 60, 60);
+}
+
 .futuro{
   display: flex;
   width: 100%;
@@ -105,4 +111,10 @@ main{
   background-color: rgb(136, 136, 122);
   border: 3px solid white;
   box-sizing: border-box;
+  transition: background-color 1s;
+
+}
+
+.futuro:hover{
+  background-color: rgb(95, 88, 88);
 }
