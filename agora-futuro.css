@@ -69,7 +69,6 @@ nav ul li a:hover {
   position: absolute;
   width: 10%;
   z-index: 2;
-  transform: translateY(-30vh);
 }
 
 
