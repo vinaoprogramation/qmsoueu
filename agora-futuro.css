@@ -63,4 +63,5 @@ nav ul li a:hover {
 .jb{
   position: absolute;
   width: 40%;
+  z-index: 2;
 }
