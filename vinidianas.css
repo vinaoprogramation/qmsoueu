@@ -1,0 +1,236 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 2vw;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+}
+
+header {
+  background-color: white;
+  background-size: 100vw;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 3%;
+  animation: expandirAltura linear forwards;
+  animation-timeline: scroll(root);
+  animation-range: 0% 300%;
+}
+
+
+header h1 {
+  text-align: center;
+  position: relative;
+  font-size: 4vw;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+
+header h2 {
+  font-family: "Josefin Sans", sans-serif;
+  position: absolute;
+  margin-left: 23%;
+  transform: translateY(3.5em);
+  z-index: 1;
+}
+
+nav {
+  width: 100%;
+  height: 6vw;
+
+}
+
+nav ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  list-style-type: none
+}
+
+nav ul li {
+  list-style-type: none;
+  margin: 0 2% 0 2%;
+
+}
+
+nav ul li a {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  padding: 1vw;
+  font-size: 1.3vw;
+  font-family: "Josefin Sans", sans-serif;
+  transition: background-color 0.2s;
+  background-color: rgb(194, 158, 92);
+}
+
+nav ul li a:hover {
+  background-color: rgb(231, 189, 111);
+}
+
+.vininho {
+  position: absolute;
+  width: 16%;
+  z-index: 0;
+  transform: translateY(-2.45em);
+  margin-left: 10%;
+}
+
+
+main {
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.textos {
+  width: 100%;
+  height: 100%;
+  margin-top: 5%;
+  box-sizing: border-box;
+  font-family: "Alegreya SC", serif;
+}
+
+.agora {
+  display: flex;
+  width: 100%;
+  height: 20em;
+  background-image: white;
+  box-sizing: border-box;
+  padding: 3% 0;
+  max-height: 70%;
+  align-items: center;
+  transition: height 1s;
+}
+
+.agora:hover {
+  height: 25em;
+}
+
+.agora h1 {
+  position: absolute;
+  margin-left: 42%;
+  font-size: 3em;
+  font-weight: normal;
+  transition: opacity 2s;
+
+}
+
+.agora:hover h1 {
+  opacity: 0;
+  transition: opacity 0.5s;
+
+}
+
+.agora p {
+  font-size: 0.8em;
+  text-align: center;
+  width: 50%;
+  margin-left: 5%;
+  opacity: 0;
+  transition: opacity 1.5s;
+}
+
+.agora:hover .imagem {
+  opacity: 1;
+  transition: opacity 6s;
+}
+
+.agora:hover p {
+  opacity: 1;
+  transition: opacity 3s;
+
+}
+
+.imagem {
+  width: 30%;
+  margin: auto;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+
+.imagem img {
+  width: 100%;
+  border-radius: 2%;
+  box-shadow: 0 0 1em 0.2em rgb(194, 158, 92);
+  transition: width 1s, margin 0.7s;
+}
+
+.futuro {
+  display: flex;
+  width: 100%;
+  height: 20em;
+  background-image: white;  
+  box-sizing: border-box;
+  padding: 3% 0;
+  max-height: 70%;
+  align-items: center;
+  justify-content: end;
+  transition: height 1s;
+  overflow: hidden;
+
+}
+
+.futuro:hover {
+  height: 25em;
+}
+
+
+.futuro p {
+  font-size: 0.8em;
+  text-align: center;
+  width: 50%;
+  margin-right: 5%;
+  opacity: 0;
+  transition: opacity 1.5s;
+}
+
+
+
+.futuro h1 {
+  position: absolute;
+  margin-right: 22%;
+  font-size: 3em;
+  font-weight: normal;
+  transition: opacity 2s;
+  margin-top: -35%;
+}
+
+
+.futuro:hover h1 {
+  opacity: 0;
+  transition: opacity 0.5s;
+
+}
+
+.futuro:hover p {
+  opacity: 1;
+  transition: opacity 3s;
+}
+
+.futuro:hover .imagem {
+  opacity: 1;
+  transition: opacity 6s;
+}
+
+.agora .imagem img:hover{
+  cursor: pointer;
+  width: 120%;
+  margin-left: -10%;
+}
+
+.futuro .imagem img:hover{
+  cursor: pointer;
+  width: 120%;
+  margin-left: -10%;
+}
