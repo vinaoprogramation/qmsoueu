@@ -20,7 +20,7 @@ body {
 
 
 header {
-  background-image: linear-gradient(to bottom, transparent 90%, rgb(255, 241, 181) 99%), url(imagens/fundo-arvore.jpg);
+  background-image: linear-gradient(to bottom, transparent 90%, rgb(255, 241, 181) 99%), url(imagens/vininho-carro.jpg);
   background-size: 100vw;
   background-repeat: no-repeat;
   background-position: center;
@@ -35,8 +35,10 @@ header {
 header h1 {
   text-align: center;
   position: relative;
-  font-size: 4vw;
+  font-size: 6vw;
   font-family: "Josefin Sans", sans-serif;
+  color: white;
+  text-shadow: 0 0.1em 0.2em rgb(0, 0, 0);
 }
 
 nav {
@@ -69,6 +71,7 @@ nav ul li a {
   font-family: "Josefin Sans", sans-serif;
   transition: background-color 0.2s;
   background-color: rgb(255, 239, 167);
+  box-shadow: 0 0 0.2em 0.2em white;
 }
 
 nav ul li a:hover {
@@ -82,10 +85,10 @@ nav ul li a:hover {
   margin: 7% 0 10% 50%;
   padding: 0.2%;
   text-align: left;
-  font-size: 7vw;
-  color: black;
+  font-size: 8vw;
+  color: white;
   background-color: none;
-  text-shadow: 0 0 5px rgb(158, 157, 157);
+  text-shadow: 0 0 0.1em rgb(0, 0, 0);
   animation: Desaparecer linear forwards;
   animation-timeline: scroll(root);
   animation-range: 0% 50%;
@@ -156,6 +159,7 @@ input[type="checkbox"] {
 
 input[type="checkbox"]:checked~.conteudo-oculto {
   max-height: 100%;
+   transition: max-height 0.5s ease;
 }
 
 label {
@@ -180,4 +184,12 @@ input[type="checkbox"]:checked~.conteudo-oculto #ultimo {
   text-align: center;
   margin: 5% 0 5% 0;
   font-size: 2vw;
+}
+
+.botao label::after {
+  content: 'Leia mais';
+}
+
+#leia-mais-toggle:checked ~ .botao label::after {
+  content: "Leia menos";
 }
